@@ -1,0 +1,22 @@
+.calc{
+    width: 425px;
+    height: 500px;
+    background-color: rgb(103, 161, 161);
+    margin-left: 410px;
+    margin-top: 25px;
+}
+#screen
+{
+    width: 390px;
+    height: 85px;
+    margin-left: 10px;
+    margin-top: 10px;
+    pointer-events: none
+}
+.btn{
+    width: 50px;
+    height: 48px;
+    margin-top: 25px;
+    margin-left: 43px;
+    background-color: #f9f18d;
+}

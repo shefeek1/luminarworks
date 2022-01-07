@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Enter Age</h1>
+    <input type="text" id="age">
+    <button onclick="validate()">Submit</button>
+    <div id="result">
+
+    </div>
+
+</body>
+<script>
+    function validate(){
+      //var age =document.querySelector("#age").value 
+      var ag=age.value
+      //var html_data=""
+      var html_data=``
+     if(ag<18)
+    {
+        // var mydiv=document.createElement("div")
+        //  mydiv.innerHTML="<h1>Not eligible</h1>"
+        // document.querySelector("body").append(mydiv)
+     //html_data+="Access denied"
+     html_data=`<p style="color:red"> ${ag}  Access Denied</p>`
+   //  document.querySelector("#result").style.color="red"
+    }
+    else{
+        //html_data+="Acess Granted"
+        html_data=`<p style="color:green"> ${ag}  Access Granted</p>`
+    }
+    //document.querySelector("#result").innerHTML=html_data
+      result.innerHTML=html_data
+    }
+</script>
+</html>
